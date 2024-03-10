@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav-header {
+  background-color: white;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.page-logo {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.page-logo h2:nth-child(1) {
+  color: rgb(162, 60, 253);
+}
+
+.nav-lists {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 50px;
+  padding-top: 50px;
+  gap: 25px;
+}
+
+.nav-lists li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.mainpage-side {
+  background-color: rgb(228, 230, 235);
+  max-width: calc(100% - 20%);
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+#search-bar {
+  padding-left: 80%;
+}
+
+.sect-title {
+  margin-left: -945px;
+}
+
+.get-started {
+  background-color: white;
+  width: 1000px;
+  height: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 25px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile img {
+  border-radius: 100px;
+}
+
+.lessons-sect {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.lesson {
+  background-color: white;
+  width: 325px;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lesson-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 275px;
+  padding-left: 25px;
+}
+
+.view-btn {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  width: 90px;
+  height: 40px;
+  margin-left: 915px;
+}
+
+.assignments {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.assignment-desc {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-left: 50px;
+  width: 950px;
+  height: 105px;
+}
+
+.assignment-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-sect {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.news {
+  background-color: white;
+  width: 325px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.news-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 275px;
+  padding-left: 25px;
+  padding-top: 50px;
+}

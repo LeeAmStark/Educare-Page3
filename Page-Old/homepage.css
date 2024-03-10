@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+}
+
+#logo-1 {
+  color: rgb(156, 89, 255);
+}
+
+.page-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  font-size: 20px;
+}
+
+#list-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-1 {
+  opacity: 100%;
+}
+
+.icon-2 {
+  opacity: 60%;
+}
+
+.icon-3 {
+  opacity: 60%;
+}
+
+.icon-4 {
+  opacity: 60%;
+}
+
+.icon-5 {
+  opacity: 60%;
+}
+
+.material-symbols-outlined {
+  color: rgb(156, 89, 255);
+}
+
+.side-menu {
+  background-color: white;
+  width: 17.5%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding-left: 45px;
+  padding-top: 25px;
+  margin-right: 505px;
+}
+
+body{
+  background-color: rgb(211, 211, 211);
+}
+
+.homepage{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.recent-article {
+  width: 70%;
+  margin-left: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-section {
+  margin-left: 285px;
+}
+
+.top-section h6{
+  margin-top: 100px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+
+.page-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 950px;
+  height: 400px;
+  gap: 15px;
+}
+
+.page-sect{
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.page-sect img{
+  width: 500px;
+  height: 300px;
+}
+
+.page-desc{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 350px;
+}
+
+.page-desc button{
+  width: 125px;
+  height: 50px;
+  margin-top: 25px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: whitesmoke;
+}
+
+.profile{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lessons-sect{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  gap: 25px;
+  margin-top: 150px;
+}
+
+.lesson-sect{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  width: 300px;
+  gap: 15px;
+}
+
+.lesson-desc{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 250px;
+  height: 210px;
+  gap: 10px;
+}
+
+.lesson-btn-1{
+  width: 125px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 825px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: whitesmoke;
+}
+
+.assignments{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-left: 325px;
+  gap: 20px;
+}
+
+.assignment{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  gap: 50px;
+  width: 900px;
+  height: 100px;
+  padding-left: 50px;
+}
+
+.news-sect{
+  margin-left: 325px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+
+}
+
+.news{
+  width: 275px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: white;
+}
+
+.profile img{
+  display: flex;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+.news-desc{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 225px;
+}
+
+.lesson-btn-2{
+  width: 125px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 825px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: whitesmoke;
+}
+
+.lesson-btn-3{
+  width: 125px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 1145px;
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: whitesmoke;
+}
+
+.end-page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-left: 450px;
+}
